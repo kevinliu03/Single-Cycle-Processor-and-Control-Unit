@@ -1,0 +1,1 @@
+iverilog -o SingleCycleProcTest SingleCycleProcTest.v SingleCycleProc.v SingleCycleControl.v NextPClogic.v RegisterFile.v DataMemory.v ALU.v InstructionMemory.v SignExtender_Example.v && ./SingleCycleProcTest
